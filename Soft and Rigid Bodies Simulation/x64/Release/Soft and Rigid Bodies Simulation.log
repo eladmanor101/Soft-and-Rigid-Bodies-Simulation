@@ -1,0 +1,12 @@
+﻿  Engine.cpp
+  Main.cpp
+  Math.cpp
+  Circle.h
+  RigidBody.cpp
+  SoftBody.cpp
+Engine.obj : error LNK2001: unresolved external symbol "public: virtual __cdecl RigidBody::~RigidBody(void)" (??1RigidBody@@UEAA@XZ)
+Engine.obj : error LNK2001: unresolved external symbol "private: virtual void __cdecl Circle::handleCollisions(float)" (?handleCollisions@Circle@@EEAAXM@Z)
+Engine.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Circle::render(class sf::RenderWindow &)" (?render@Circle@@UEAAXAEAVRenderWindow@sf@@@Z)
+Engine.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Circle::update(float)" (?update@Circle@@UEAAXM@Z)
+Engine.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Circle::init(void)" (?init@Circle@@UEAAXXZ)
+C:\Users\PC\Desktop\Programming\Visual Studio Projects\Soft and Rigid Bodies Simulation\x64\Release\Soft and Rigid Bodies Simulation.exe : fatal error LNK1120: 5 unresolved externals
